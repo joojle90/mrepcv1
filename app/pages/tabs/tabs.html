@@ -1,6 +1,16 @@
-
+<!--
 <ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="Tab 1" tabIcon="pulse"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="Tab 2" tabIcon="chatbubbles"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Tab 3" tabIcon="cog"></ion-tab>
+  <ion-tab *ngFor="#tc of tabcontent;" id="{{tc.tabroot}}" [root]="root" tabTitle={{tc.tabtitle}} tabIcon={{tc.tabicon}}>
+  </ion-tab>
+</ion-tabs>
+-->
+
+<ion-tabs class="tabs">
+    <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
+    <ion-tab [root]="tab2Root" tabTitle="My Magazine" tabIcon="book"></ion-tab>
+<!--
+    <ion-tab [root]="tab3Root" tabTitle="My Fairs" tabIcon="globe"></ion-tab>
+    <ion-tab [root]="tab3Root" tabTitle="Scan History" tabIcon="aperture"></ion-tab>
+-->
+    <!--  <ion-tab [root]="tab4Root" tabTitle="About" tabIcon="gear-a"></ion-tab>-->
 </ion-tabs>

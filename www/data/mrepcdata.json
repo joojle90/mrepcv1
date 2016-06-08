@@ -1,0 +1,397 @@
+{
+    "leftsidemenu": [{
+        "name": "Main",
+        "submenu": [{
+            "idmenu": 1,
+            "title": "Home",
+            "component": "HomePage",
+            "icon": "home"
+  }, {
+            "idmenu": 2,
+            "title": "Trade Show",
+            "component": "TradeShowPage",
+            "icon": "globe",
+            "notif": 4
+    }, {
+            "idmenu": 3,
+            "title": "Online Marketplace",
+            "component": "MarketplacePage",
+            "icon": "podium"
+    }],
+        "subnameid": ["1", "2", "3"]
+  }, {
+        "name": "Featured",
+        "submenu": [{
+            "idmenu": 4,
+            "title": "My Seminar",
+            "component": "SeminarPage",
+            "icon": "aperture",
+            "notif": 3
+    }, {
+            "idmenu": 5,
+            "title": "My Events",
+            "component": "EventsPage",
+            "icon": "calendar",
+            "notif": 8
+    }],
+        "subnameid": ["3", "4", "5"]
+  }, {
+        "name": "Misc",
+        "submenu": [{
+            "idmenu": 6,
+            "title": "Settings",
+            "component": "SettingsPage",
+            "icon": "cog",
+            "note": "Config"
+    }, {
+            "idmenu": 7,
+            "title": "Tutorial",
+            "component": "TutorialPage",
+            "icon": "book"
+    }, {
+            "idmenu": 8,
+            "title": "About Us",
+            "component": "AboutPage",
+            "icon": "people"
+    }],
+        "subnameid": ["6", "7"]
+  }],
+
+
+    "tabcontent": [{
+        "tabroot": "tab1Root",
+        "tabtitle": "Now",
+        "tabicon": "social-youtube"
+  }, {
+        "tabroot": "tab2Root",
+        "tabtitle": "Tophits",
+        "tabicon": "film-marker"
+  }, {
+        "tabroot": "tab3Root",
+        "tabtitle": "Review",
+        "tabicon": "chatbubbles"
+  }, {
+        "tabroot": "tab4Root",
+        "tabtitle": "Setting",
+        "tabicon": "gear-a"
+  }],
+
+
+    "mastermenu": [{
+        "featuredmenu": "Highlight Events",
+        "desc": "Up Coming Events and Seminar",
+        "image": "img/mastermenu/highlights.jpg"
+  }, {
+        "featuredmenu": "Online Marketplace",
+        "desc": "Marketplace",
+        "image": "img/mastermenu/marketplace.jpg"
+  }, {
+        "featuredmenu": "Trade Shows",
+        "desc": "List All Events",
+        "image": "img/mastermenu/tradeshows.jpg"
+  }, {
+        "featuredmenu": "Seminar",
+        "desc": "List All Seminar",
+        "image": "img/mastermenu/seminar.jpg"
+  }],
+
+
+    "mrepcevents": [{
+        "idlist": "MREV001",
+        "image": "img/photos/event1.jpg",
+        "eventdetail": [{
+            "name": "Arab Health",
+            "description": "Arab Health serves as a platform and showcase for healthcare companies wanting to promote and sell their products to the healthcare community in the Middle East and beyond.",
+            "productdetails": "Gloves, catheters, condoms, breathing bags, dental dams, exercise bands and other rubber medical products",
+            "linkurl": "www.mrepc.com",
+            "startdate": "25 Jan 2016",
+            "enddate": "28 Jan 2016",
+            "visitor": 93925,
+            "fee": 0,
+            "location": "Dubai, United Arab Emirates",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "completed"
+    }],
+        "like": 2140,
+        "exhibitors": 4053,
+        "country": 67,
+        "hallsize": 63906
+  }, {
+        "idlist": "MREV002",
+        "image": "img/photos/event2.jpg",
+        "eventdetail": [{
+            "name": "Medtrade Spring",
+            "description": "-",
+            "productdetails": "Gloves, condoms, catheters, breathing bags, dental dams, exercise bands and other rubber medical products.",
+            "linkurl": "www.mrepc.com",
+            "startdate": "01 Mar 2016",
+            "enddate": "02 Mar 2016",
+            "visitor": "-",
+            "fee": 0,
+            "location": "Las Vegas, NV, United States Of America",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "completed"
+    }],
+        "like": 2170,
+        "exhibitors": "-",
+        "country": "-",
+        "hallsize": "-"
+  }, {
+        "idlist": "MREV003",
+        "image": "img/photos/event3.jpg",
+        "eventdetail": [{
+            "name": "Global Rubber Latex and type Expo",
+            "description": "TechnoBiz Communications Co., Ltd. (TechnoBiz) and China United Rubber Corporation (CURC) jointly organizing 3rd Edition of GRTE 2016 (Global Rubber, Latex & Tire Expo 2016) during 9-11 March 2016 at Bangkok International Trade & Exhibition Center (BITEC) in Bangkok, Thailand. The 3rd Edition is aimed to be much improved version than previous two editions with more value added components for all stakeholders, exhibitors, visitors, delegates and speakers.",
+            "productdetails": "Gloves, catheters, condoms, breathing bags, dental dams, exercise bands Rubber automotive components.",
+            "linkurl": "www.mrepc.com",
+            "startdate": "09 Mar 2016",
+            "enddate": "11 Mar 2016",
+            "visitor": 4000,
+            "fee": 0,
+            "location": "Bangkok, Thailan",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "completed"
+    }],
+        "like": 2170,
+        "exhibitors": 217,
+        "country": "-",
+        "hallsize": "-"
+  }, {
+        "idlist": "MREV004",
+        "image": "img/photos/event4.jpg",
+        "eventdetail": [{
+            "name": "Medical Fair India",
+            "description": "Medical Fair India is an annual medical and healthcare event held alternately in Mumbai and New Delhi which offers an ideal international platform to the medical and healthcare industry.",
+            "productdetails": "Gloves, catheters, condoms, breathing bags, dental dams, exercise bands and other rubber medical products",
+            "linkurl": "www.mrepc.com",
+            "startdate": "11 Mar 2016",
+            "enddate": "13 Mar 2016",
+            "visitor": 10400,
+            "fee": 0,
+            "location": "Mumbai, India",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "completed"
+    }],
+        "like": 1170,
+        "exhibitors": 447,
+        "country": 18,
+        "hallsize": 5250
+  }, {
+        "idlist": "MREV005",
+        "image": "img/photos/event5.jpg",
+        "eventdetail": [{
+            "name": "KIMES 2016",
+            "description": "The 32nd Korea International Medical & Hospital Equipment Show in Seoul, Korea will showcase health care facilities, hospital equipment and modernization of the development of the domestic medical device industry. Buyers from domestic and overseas including officials in medical institutions, hospitals such as doctors, veterinarians, dentists, nurses, radiologists, physical therapists, medical laboratory technologists, pharmacists and emergency medical technicians.",
+            "productdetails": "Gloves, condoms, catheters, breathing bags, dental dams, exercise bands and other rubber medical products.",
+            "startdate": "17 Mar 2016",
+            "enddate": "20 Mar 2016",
+            "visitor": 72036,
+            "fee": 0,
+            "location": "",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "completed"
+        }],
+        "like": 2380,
+        "exhibitors": 1145,
+        "country": "-",
+        "hallsize": "-"
+  }, {
+
+        "idlist": "MREV006",
+        "image": "img/photos/event6.jpg",
+        "eventdetail": [{
+            "name": "EXPOMED",
+            "description": "The ExpoMED 2016 Conference & Exhibition will be held June 08-10 in Mexico City. This annual event is a key opportunity for industry professionals to reach out to manufacturers, importers, distributors, wholesalers, retailers, general hospital suppliers and distributors of supplies.",
+            "productdetails": "Gloves, catheters, condoms, breathing bags, dental dams, exercise bands & other rubber medical products",
+            "linkurl": "www.mrepc.com",
+            "startdate": "08 Jun 2016",
+            "enddate": "10 Jun 2016",
+            "visitor": 4853,
+            "fee": 0,
+            "location": "Mexico City, Mexico",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "coming soon"
+        }],
+        "like": 2543,
+        "exhibitors": 102,
+        "country": "-",
+        "hallsize": "-"
+  }, {
+
+        "idlist": "MREV007",
+        "image": "img/photos/event7.jpg",
+        "eventdetail": [{
+            "name": "Semicon West",
+            "description": "SEMICON West is the flagship annual event for the global microelectronics industry. It is the premier event for the display of new products and technologies for microelectronics design and manufacturing, featuring technologies from across the microelectronics supply chain, from electronic design automation, to device fabrication (wafer processing), to final manufacturing (assembly, packaging, and test).",
+            "productdetails": "Cleanroom gloves",
+            "linkurl": "www.mrepc.com",
+            "startdate": "12 Jul 2016",
+            "enddate": "14 Jul 2016",
+            "visitor": 17473,
+            "fee": 0,
+            "location": "San Francisco, United States Of America",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "coming soon"
+        }],
+        "like": 2921,
+        "exhibitors": "-",
+        "country": "-",
+        "hallsize": 127500
+  }, {
+        "idlist": "MREV008",
+        "image": "img/photos/event8.jpg",
+        "eventdetail": [{
+            "name": "AIDS Conference",
+            "description": "Offered premier gathering for those working in the field of HIV as it provided critical forum for presenting new research, promoting dialogue and future collaborations and developing strategies to advance the global response to HIV.",
+            "productdetails": "Male Condoms, Female Condoms & Rubber Medical Products",
+            "linkurl": "www.mrepc.com",
+            "startdate": "19 Jul 2016",
+            "enddate": "22 Jul 2016",
+            "visitor": 12000,
+            "fee": 0,
+            "location": "Durban, South Africa",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "coming soon"
+        }],
+        "like": 3491,
+        "exhibitors": "-",
+        "country": 200,
+        "hallsize": "-"
+  }, {
+        "idlist": "MREV009",
+        "image": "img/photos/event9.jpg",
+        "eventdetail": [{
+            "name": "Medicall",
+            "description": "Medicall is deemed as a convenient one stop shop by the Healthcare industry for choosing and selecting their equipment. Eminent physicians, surgeons, paramedical staff, hospital management professionals, dealers and distributors of medical equipment make it an annual pilgrimage to Medicall to choose the best and the latest at the most cost effective rates.",
+            "productdetails": "Gloves, catheters, condoms, breathing bags, dental dams, exercise bands and other rubber medical products.",
+            "linkurl": "www.mrepc.com",
+            "startdate": "22 Jul 2016",
+            "enddate": "24 Jul 2016",
+            "visitor": 12000,
+            "fee": 0,
+            "location": "Chennai, India",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "coming soon"
+        }],
+        "like": 3251,
+        "exhibitors": 7010,
+        "country": 20,
+        "hallsize": "-"
+  }, {
+        "idlist": "MREV010",
+        "image": "img/photos/event10.jpg",
+        "eventdetail": [{
+            "name": "FIME",
+            "description": "FIME served as the battleground for companies to showcase the latest medical technology for the betterment of human life. The show attracted exhibitors from USA as well as from other countries, particularly South America.",
+            "productdetails": "Gloves, catheters, condoms, breathing bags, dental dams, exercise bands & other rubber medical products.",
+            "linkurl": "www.mrepc.com",
+            "startdate": "02 Aug 2016",
+            "enddate": "04 Aug 2016",
+            "visitor": 52890,
+            "fee": 0,
+            "location": "Miami, United States Of America",
+            "lat": 43.071584,
+            "lng": -89.380120,
+            "sponsor": "MREPC 2016",
+            "status": "coming soon"
+        }],
+        "like": 4201,
+        "exhibitors": 7000,
+        "country": "-",
+        "hallsize": "-"
+  }],
+
+    "cinemashow": [{
+        "cinemaid": "CNM001",
+        "image": "img/cinemashow/cinema1.jpg",
+        "name": "Great Mall Putra",
+        "address": "Presint 15, 34000 Putrajaya",
+        "hall": 7,
+        "movieshow": 20,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }, {
+        "cinemaid": "CNM002",
+        "image": "img/cinemashow/cinema2.jpg",
+        "name": "Kuala Lumpur Mall",
+        "address": "Jalan imbi, 49023 Kuala Lumpur",
+        "hall": 11,
+        "movieshow": 32,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }, {
+        "cinemaid": "CNM003",
+        "image": "img/cinemashow/cinema3.jpg",
+        "name": "IOI City Mall",
+        "address": "Jalan cyber block 4, 51000 Cyberjaya",
+        "hall": 9,
+        "movieshow": 15,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }, {
+        "cinemaid": "CNM004",
+        "image": "img/cinemashow/cinema4.jpg",
+        "name": "Midvalley",
+        "address": "Midvalley street, 87010 Kuala Lumpur",
+        "hall": 6,
+        "movieshow": 18,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }, {
+        "cinemaid": "CNM005",
+        "image": "img/cinemashow/cinema5.jpg",
+        "name": "Wangsa Maju Wall",
+        "address": "Sri rampai street, 67200 Wangsa Maju",
+        "hall": 10,
+        "movieshow": 26,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }, {
+        "cinemaid": "CNM006",
+        "image": "img/cinemashow/cinema6.jpg",
+        "name": "Bangi Gateway",
+        "address": "Seksyen 15, 43600 Bangi",
+        "hall": 4,
+        "movieshow": 13,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }, {
+        "cinemaid": "CNM007",
+        "image": "img/cinemashow/cinema7.jpg",
+        "name": "The Mines",
+        "address": "Serdang city street, 64700 Serdang",
+        "hall": 9,
+        "movieshow": 24,
+        "lat": 43.071584,
+        "lng": -89.380120
+  }],
+
+    "aboutus": [{
+        "appinfo": "CineMAR",
+        "description": "Mobile application for cinema using AR techology",
+        "createddate": "15 Feb 2016",
+        "createdby": "MyXlab team",
+        "contactus": "03 8928 0923",
+        "img": "img/aboutus.jpg",
+        "supportby": "UKM"
+  }]
+
+}

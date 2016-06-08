@@ -1,0 +1,36 @@
+.home {
+    .events {
+        position: relative;
+        text-align: center !important;
+    }
+    ion-card {
+        margin: 3px 10px 3px 10px;
+
+        img {
+            filter: brightness(80%);
+        }
+        p.events-title {
+            position: absolute;
+            top: 32%;
+            font-size: 2.0em;
+            width: 100%;
+            font-weight: bold;
+            color: white !important;
+        }
+        p.events-subtitle {
+            font-size: 1.0em;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            font-weight: bold;
+            color: #FFF23D !important;
+        }
+        button.events-details {
+            position: absolute;
+            bottom: 0;
+            font-size: 0.8em;
+            width: 25%;
+            right: 0.4em;
+        }
+    }
+}
