@@ -1,0 +1,25 @@
+<ion-navbar secondary *navbar>
+    <ion-title>Home</ion-title>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+</ion-navbar>
+
+<ion-content class="home">
+    <ion-card class="events" *ngFor="let mm of mastermenulist; let i = index">
+        <a clear>
+            <div *ngIf="i!=0">
+                <img [src]="mastermenulist[i].image" />
+            </div>
+            <ion-slides pager *ngIf="i==0">
+                <ion-slide *ngFor="let me of mrepceventslist; let i = index">
+                    <img [src]="mrepceventslist[i].image" />
+                    <p class="events-title">{{me.eventdetail[0].name}}</p>
+                    <p class="events-subtitle">{{me.eventdetail[0].startdate}}</p>
+                </ion-slide>
+            </ion-slides>
+        </a>
+        <p class="events-title">{{mm.featuredmenu}}</p>
+        <p class="events-subtitle">{{mm.desc}}</p>
+    </ion-card>
+</ion-content>

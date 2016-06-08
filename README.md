@@ -1,2 +1,0 @@
-# mrepc
-Malaysia Rubber Company
